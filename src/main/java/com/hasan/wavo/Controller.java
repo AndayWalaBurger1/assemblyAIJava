@@ -16,7 +16,7 @@ public class Controller {
     public static void main(String[] args) throws IOException {
         String transcribeUrl = "https://api.assemblyai.com/v2/transcript";
 
-        String requestBody = "{\"audio_url\":\"https://s3-us-west-2.amazonaws.com/blog.assemblyai.com/audio/8-7-2018-post/7510.mp3\"}";
+        String requestBody = "{\"audio_url\":\"https://github.com/AndayWalaBurger1/assemblyAIJava/blob/main/test%20(2).mp3?raw=true\"}";
 
         // Make the POST request
         String response = sendPOST(transcribeUrl, requestBody);
