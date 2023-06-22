@@ -1,0 +1,13 @@
+package com.hasan.wavo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class WavoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(WavoApplication.class, args);
+	}
+
+}
